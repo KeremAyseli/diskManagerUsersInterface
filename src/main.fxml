@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane fx:id="mainPageController" dividerPositions="0.479933110367893" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="796.0" style="-fx-border-color: #71f9fe;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPageController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <SplitPane dividerPositions="0.7291242362525459" layoutX="50.0" layoutY="86.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" style="-fx-border-color: #71f9fe; -fx-border-image-width: 1px;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="347.0" prefWidth="341.0" style="-fx-background-color: #3b394a;">
+                     <children>
+                        <ImageView fitHeight="112.0" fitWidth="115.0" layoutX="120.0" layoutY="123.0" AnchorPane.bottomAnchor="132.0" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="141.0" AnchorPane.topAnchor="123.0">
+                           <image>
+                              <Image url="@../../../24564_hard_harddisk_hd_icon.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="140.0" fitWidth="140.0" layoutX="108.0" layoutY="-17.0" AnchorPane.bottomAnchor="120.0" AnchorPane.leftAnchor="108.0" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="-10.0">
+                           <image>
+                              <Image url="@../../../up_icon-icons.com_61204.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="140.0" fitWidth="140.0" layoutX="108.0" layoutY="243.0" AnchorPane.bottomAnchor="-28.0" AnchorPane.leftAnchor="108.0" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="240.0">
+                           <image>
+                              <Image url="@../../../down_icon-icons.com_61209.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-color: #345d88;">
+                     <children>
+                        <Button fx:id="ScanButton" layoutX="36.0" layoutY="23.0" mnemonicParsing="false" onAction="#Scan" prefHeight="106.0" prefWidth="338.0" style="-fx-background-color: #3b394a;" text="Scan Disk" textFill="#71f9fe" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font name="Times New Roman" size="48.0" />
+                           </font></Button>
+                     </children></AnchorPane>
+              </items>
+            </SplitPane>
+         </children></AnchorPane>
+    <AnchorPane fx:id="FolderLİstSide" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <ListView fx:id="FolderList" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
