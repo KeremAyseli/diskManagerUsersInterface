@@ -1,18 +1,9 @@
-## Getting Started
+# Disk Manager Users Interface
+This program Interface for [diskManager](https://github.com/KeremAyseli/diskManager).Build with JavaFX.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Goals
+Finding all logical disk on the computer (it is don't working now,only available for draft).File filter,size filter.Better UI design. 
 
-## Folder Structure
+![Main page](https://raw.githubusercontent.com/KeremAyseli/diskManagerUsersInterface/master/Yeni%20klas%C3%B6r/qTgPXF0qIB.png)
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
